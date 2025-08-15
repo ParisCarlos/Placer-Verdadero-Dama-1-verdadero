@@ -33,3 +33,43 @@
       
     }
     .volver:hover { background: #ff9800; }
+ body.videos {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      background: #0c0e0f;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 10px 20px;
+      width: 100%;
+      font-size: 1.2em;
+      text-align: center;
+      font-family: sans-serif;
+   
+    }
+
+    .banner {
+      background-color: rgb(184, 209, 219);
+      padding: 10px;
+      text-align: center;
+      width: 80%;
+      margin-bottom: 20px;
+      border-radius: 8px;
+      font-weight: bold;
+      
+
+    }
+
+    video {
+      width: 80%;
+      height: auto;
+      border: 2px solid #111d27e;
+      border-radius: 10px;
+      box-shadow: 0 0 10px #333;
+    }
